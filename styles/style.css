@@ -1,0 +1,43 @@
+/* shared code */
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.primary-text{
+    color:#FD6E0A;  
+}
+.primary-btn{
+    background-color: #FD6E0A;
+    color:white;
+    border:0;
+    font-size: 20px;
+    padding: 15px 35px;
+    border-radius: 5px;
+}
+
+/* nav section styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around  ;
+}
+
+nav > ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around  ;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+    
+}
+nav li a{
+    text-decoration: none;
+    color: #181818;
+}
+.nav-title{
+    color: #181818;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+}
