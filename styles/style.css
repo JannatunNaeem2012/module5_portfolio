@@ -98,6 +98,12 @@ nav li a {
     max-width: 500px;
 }
 
+/* main section general code */
+main {
+    max-width: 1140px;
+    margin: 0px auto;
+}
+
 /* about section */
 .about {
     padding: 130px;
@@ -109,8 +115,29 @@ nav li a {
 }
 
 .about-description {
-    color:  #757575;
+    color: #757575;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
+}
+
+.about-info-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.what-i-do-des {
+    padding: 0px 130px;
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.what-i-do-title {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
 }
